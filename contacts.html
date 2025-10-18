@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacts</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: white;
+      font-family: 'Courier New', monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    .card {
+      background: rgba(20, 20, 20, 0.8);
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 600px;
+      width: 90%;
+    }
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+    p {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 28px;
+      background-color: #d8b4fe;
+      color: #000;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 18px;
+      font-family: 'Courier New', monospace;
+      transition: box-shadow 0.3s ease;
+    }
+    .back-btn:hover {
+      box-shadow: 0 0 12px rgba(216, 180, 254, 0.7);
+    }
+  </style>
+</head>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+  <div class="card">
+    <h1>𝘾𝙤𝙣𝙩𝙖𝙘𝙩𝙨</h1>
+    <p>𝙈𝙖𝙞𝙡: 𝙨𝙚𝙥𝙤𝙩𝙮𝙠𝙖𝙣@𝙢𝙖𝙞𝙡.𝙧𝙪</p>
+    <p>Telegram: <a href="https://t.me/face6423" class="inline-link" style="text-decoration: none; color: #d8b4fe;">@face6423</a></p>
+    <a href="index.html" class="back-btn">← 𝘽𝙖𝙘𝙠</a>
+  </div>
+</body>
+</html>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: white;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  .card {
+    background: rgba(20, 20, 20, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 600px;
+    width: 90%;
+  }
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  p {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  .back-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 28px;
+    background-color: #d8b4fe;
+    color: #000;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Courier New', monospace;
+    transition: box-shadow 0.3s ease;
+  }
+  .back-btn:hover {
+    box-shadow: 0 0 12px rgba(216, 180, 254, 0.7);
+  }
+
+  /* 💫 АНИМАЦИЯ ПОЯВЛЕНИЯ */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px) scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+  .card {
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+</style>

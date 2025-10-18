@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Моя визитка</title>
+  <style>
+    /* ЕДИНЫЙ СТИЛЬ ДЛЯ ГЛАВНОЙ СТРАНИЦЫ */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      /* Твой GIF с Giphy */
+      background: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTlwdGoyN2doZGNqZWF3cDhmM2Mxbnh3cWNneGR1dGw3cjAzYm9qMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/01vw80KKJxhEtJNZvK/giphy.gif') center center repeat;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white; /* белый текст лучше виден на тёмном GIF */
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    }
+
+    .card {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      max-width: 500px;
+    }
+
+    h1 {
+      margin: 10px 0;
+      font-family: 'Courier New', monospace;
+      font-weight: bold;
+    }
+
+    p {
+      margin: 8px 0;
+      font-size: 18px;
+      font-family: 'Courier New', monospace;
+    }
+
+    /* Кнопки */
+    .buttons {
+      margin-top: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 8px;
+      padding: 14px 28px;
+      background-color: black;
+      color: #d8b4fe; /* мягкий фиолетовый */
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 18px;
+      font-family: 'Courier New', monospace;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(216, 180, 254, 0.6);
+    }
+  </style>
+</head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Моя визитка</title>
+
+</head>
+<body class="home">
+  <div class="card">
+    <h1>𝙃𝙚𝙡𝙡𝙤</h1>
+    <p>𝙈𝙮 𝙣𝙖𝙢𝙚 𝙞𝙨 𝙙𝙞𝙢𝙥𝙡𝙚.</p>
+    <p>𝙄 𝙖𝙢 𝙘𝙧𝙚𝙖𝙩𝙞𝙣𝙜 𝙢𝙮 𝙛𝙞𝙧𝙨𝙩 𝙬𝙚𝙗𝙨𝙞𝙩𝙚!</p>
+    <div class="buttons">
+      <a href="projects.html" class="btn">𝙋𝙧𝙤𝙟𝙚𝙘𝙩𝙨</a>
+      <a href="contacts.html" class="btn">𝘾𝙤𝙣𝙩𝙖𝙘𝙩𝙨</a>
+      <a href="donate.html" class="btn">𝘿𝙤𝙣𝙖𝙩𝙚</a>
+    </div>
